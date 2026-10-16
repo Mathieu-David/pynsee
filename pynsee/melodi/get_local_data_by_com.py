@@ -17,8 +17,6 @@ def get_local_data_by_com(ds_name: str,
        
     """
     
-    Get data on every Commune of one territory.
-    
     Description
     ----------
     
@@ -68,7 +66,7 @@ def get_local_data_by_com(ds_name: str,
       
       geo_object = "DEP",
       
-      query_filter = "POPREF_MEASURE=PMUN&TIME_PERIOD=2022")
+      query_filter = "POPREF_MEASURE=PMUN")
         
     data.info()
     data.head()
