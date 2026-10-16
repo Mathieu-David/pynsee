@@ -15,11 +15,10 @@ def get_data(url: str) -> pd.DataFrame:
     
     """
     
-    Get Melodi data by URL.
-    
     Description
     ----------
     
+    Get Melodi data by URL.
     URL parameter can be copied/pasted from explorer https://catalogue-donnees.insee.fr.
 
     Parameters
