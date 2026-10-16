@@ -17,8 +17,6 @@ def get_local_data(ds_name: str,
        
     """
     
-    Get data on one territory.
-    
     Description
     ----------
     
