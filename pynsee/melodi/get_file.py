@@ -18,13 +18,11 @@ def get_file(ds_name: str,
               base_url_melodi: str = "https://api.insee.fr/melodi") -> str:
 
     """
-    
-    Get file attached to a dataset : extract (XLSX), or full CSV file, or full parquet file.
-    
+  
     Description
     ----------   
     
-    Get file attached to a dataset : extract (XLSX), or full CSV file.
+    Get file attached to a dataset : extract (XLSX), or full CSV file, or full parquet file.
 
     Parameters
     ----------
@@ -61,7 +59,7 @@ def get_file(ds_name: str,
 
     Example 3 : download the parquet file that corresponds to the dataset
         
-        pynsee.get_file(ds_name = "DS_RP_SERIE_HISTORIQUE")
+    pynsee.get_file(ds_name = "DS_RP_SERIE_HISTORIQUE")
     """
 
     #Si un file_name est fourni, download_file_name est obligatoire
