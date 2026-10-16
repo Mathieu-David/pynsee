@@ -15,6 +15,9 @@ def get_catalog(lang: str = "fr",
                 base_url_melodi: str = "https://api.insee.fr/melodi") -> pd.DataFrame:
 
     """
+
+    Description
+    ----------
     Get list of available datasets.
 
     Parameters
