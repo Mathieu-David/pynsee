@@ -18,25 +18,29 @@ def get_catalog(lang: str = "fr",
 
     Description
     ----------
+    
     Get list of available datasets.
 
     Parameters
     ----------
+    
     lang : str, {"fr", "en"}, default "fr"
         Language of metadata.
+        
     base_url_melodi : str, default "https://api.insee.fr/melodi"
         Base URL of the Melodi API.
 
     Returns
     -------
-    pd.DataFrame
-        DataFrame with columns: identifier, title_content,
-        subtitle_content, description_content, abstract_content,
-        temporal_startPeriod, temporal_endPeriod, modified,
-        numObservations, numSeries.
+    
+    DataFrame with columns: identifier, title_content,
+    subtitle_content, description_content, abstract_content,
+    temporal_startPeriod, temporal_endPeriod, modified,
+    numObservations, numSeries.
 
     Raises
     ------
+    
     ValueError
         If ``lang`` is not 'fr' or 'en'.
 
