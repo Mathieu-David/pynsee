@@ -15,11 +15,10 @@ def get_range_geo(ds_name: str,
     
     """
     
-    Get dataset's geography : codes and labels.
-    
     Description
     ----------
     
+    Get dataset's geography : codes and labels.
     Retrieves the list of geo dimensions and all their possible values (codes and human-readable labels) for a given dataset.
     
     Parameters
