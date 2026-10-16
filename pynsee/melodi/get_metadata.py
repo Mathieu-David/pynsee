@@ -14,8 +14,6 @@ def get_metadata(ds_name: str,
      
     """
     
-    Get dataset metadata.
-    
     Description
     ----------
     
