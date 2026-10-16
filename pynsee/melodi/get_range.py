@@ -16,11 +16,9 @@ def get_range(ds_name: str,
     
     """
     
-    Get dataset range (codes and labels).
-    
     Description
     ----------
-    
+    Get dataset range (codes and labels).
     Retrieves the list of dimensions and all their possible modalities values (codes and human-readable labels) for a given dataset.
     For GEO dimension, it is recommanded to used dedicated function : get_range_geo().
     
