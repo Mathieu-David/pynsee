@@ -24,8 +24,6 @@ def get_all_data(ds_name: str,
        
     """
     
-    Get all data from a dataset.
-    
     Description
     ----------
     
