@@ -53,12 +53,6 @@ def get_range_geo(ds_name: str,
     data.info()
     data.head()
     
-    Example 3 :
-    
-    data=pynsee.get_range_geo("DS_ERFS_INDIVIDU")
-    
-    data.info()
-    data.head()
     """
     #Test pour savoir si la langue sélectionnée est fr ou en, si ce n'est pas le cas, on retourne un message d'erreur
     if lang not in ["fr","en"]:
