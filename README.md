@@ -52,7 +52,7 @@ init_conn(sirene_key="my_sirene_key")
 * **Sirene (French companies database)** : use first ``get_dimension_list``, then use ``search_sirene`` with dimensions as filtering variables
 * **Geodata** : get the list of available geographical data with ``get_geodata_list`` and then retrieve it with ``get_geodata``
 * **Files on insee.fr**: get the list of available files on insee.fr with ``get_file_list`` and then download it with ``download_file``
-* **Melodi**: download Insee French Institute of Statistics Open Data, for more detail ([english version](./docs/examples/example_pynsee_melodi_en.ipynb), [french version](./docs/examples/example_pynsee_melodi_fr.ipynb)).
+* **Melodi**: download Insee French Institute of Statistics Open Data, for more detail ([english version](./docs/examples/example_melodi_en.ipynb), [french version](./docs/examples/example_melodi_fr.ipynb)).
 
 For further advice, have a look at the documentation and gallery of the [examples](https://pynsee.readthedocs.io/en/latest/examples.html).
 
