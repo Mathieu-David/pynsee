@@ -55,7 +55,7 @@ init_conn(sirene_key="my_sirene_key")
 * **Melodi** : Access and retrieve data from Insee’s Melodi catalog
    *  See detailed tutorials : [English](./docs/examples/example_melodi_en.ipynb), [French](./docs/examples/example_melodi_fr.ipynb)
    *  🌐 Official resources : [Insee Melodi API Portal](https://portail-api.insee.fr/catalog/api/a890b735-159c-4c91-90b7-35159c7c9126/doc?aq=ALL#1-objet)
-   *  [Melodi open data catalog](https://catalogue-donnees.insee.fr/fr/catalogue/recherche)
+   * 📊 Available Datasets : [Melodi open data catalog](https://catalogue-donnees.insee.fr/fr/catalogue/recherche)
 
 For further advice, have a look at the documentation and gallery of the [examples](https://pynsee.readthedocs.io/en/latest/examples.html).
 
